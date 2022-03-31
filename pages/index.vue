@@ -1,10 +1,21 @@
 <template>
-<h1>Hello World!</h1>
+  <div>
+    <div v-for="home in homes" :key="home.objectID" style="float: left; margin: 10px">
+      <home-card :home="home" />
+    </div>
+  </div>
 </template>
 
 <script>
+import homes from '~/data/homes.json';
+
 export default {
-  name: 'index'
+  name: 'Home',
+  data() {
+    return {
+      homes: homes.slice(0,3)
+    }
+  }
 };
 </script>
 
