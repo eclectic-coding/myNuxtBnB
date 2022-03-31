@@ -6,7 +6,9 @@
   },
   "license": "MIT",
   "scripts": {
-    "dev": "nuxt"
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start"
   },
   "dependencies": {
     "nuxt": "^2.15.8"
