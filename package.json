@@ -1,0 +1,14 @@
+{
+  "name": "nuxt-bnb",
+  "author": {
+    "name": "Chuck Smith",
+    "email": "chuck@eclecticsaddlebag.com"
+  },
+  "license": "MIT",
+  "scripts": {
+    "dev": "nuxt"
+  },
+  "dependencies": {
+    "nuxt": "^2.15.8"
+  }
+}
