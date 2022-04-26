@@ -11,6 +11,11 @@
     "start": "nuxt start"
   },
   "dependencies": {
+    "global": "^4.4.0",
+    "neovim": "^4.10.1",
     "nuxt": "^2.15.8"
+  },
+  "devDependencies": {
+    "@nuxt/types": "~2.15.0"
   }
 }
